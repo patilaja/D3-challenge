@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h3>D3Times - Correlations Discovered Between Health Risks and Age, Income</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9 col-md-12">
+        <div id="scatter"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9 col-md-12">
+        <div id="article">
+          <h3>Correlations Analysis:</h3>
+
+          <p><b>Poverty ~ Lack of Heathcare:  </b>Scatter plot suggests a positive coorelation between poverty and Lack of Healthcare. Chart shows as the % of In poverty increases, % lack of healthecare also increases.</p>
+
+          <p><b>Age ~ Lack of Heathcare:  </b>Chart suggests, Massachusetts has 4.6% of lack of heathcare which is lowest comapred to any other states. Maine has highest median age of 44.1 years. There is no direct correlation between median age and % lack of healthcare. </p>
+
+          <p><b>Median Household Income ~ Lack of Heathcare:  </b>Scatter plot suggests, negative coorelation between median household income and % lack of healthcare. Higher median households states shows lower % of lack of healthecare.</p>
+          
+          <p><b>Poverty ~ Smokes:  </b>Scatter plot suggests a positive corrlation between in poverty and % smokers. Chart shows higher the in poverty %, higher is the % smokes.</p>
+  
+          <p><b>Poverty ~ Obesity:  </b>Scatter plot suggests a positive corrlation between in poverty and %obesity. Mississipi has the highest % in poverty and % Obesity. Colorado state has the lowest Obesity % while has moderatly higher % in poverty compared to other states.</p>
+          
+          <p><b>Age ~ Smokes:  </b>Utah state has lowest % smokers with the lowest median age of 30.5 years. Most of the data in the dataset suggests, median age range is 34 to 42 years.</p>
+
+          <p><b>Age ~ Obesity:  </b>Most of the states shows hogher obesity between 35 and 41 years.</p>
+    
+          <p><b>Median Household Income ~ Smokes:  </b>Scatter plot suggests, negative coorelation between median household income and % smokers. Higher median households states shows lower % smokers.</p>
+    
+          <p><b>Median Household Income ~ Obesity:  </b>Scatter plot suggests, negative coorelation between median household income and % lack of healthcare. Higher median households states shows lower % obesity.</p>              
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+
+</html>
